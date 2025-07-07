@@ -1,0 +1,90 @@
+
+body{
+    font-family: 'Inter', sans-serif;
+    background-image: linear-gradient(to top, #61440ee0,#5d3809, #572b02da);
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+.task-container{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.content-item{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.content-body{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+#taskInput,
+#addTaskButton{
+    border: none;
+    font-size: 16px;
+    outline: none;
+    padding: 16px;
+}
+#taskInput{
+    width: 20rem;
+    border-radius: 16px;
+}
+#addTaskButton{
+    background-color: #5d3809;
+    color: white;
+    border-radius: 50%;
+    cursor: pointer;
+    height: 50px;
+    width: 50px;
+    transition: .4s;
+}
+#addTaskButton:hover{
+    background-color: #4b2c07;
+}
+#to-do-list{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 0; 
+}
+#to-do-list li{
+    list-style-type: none;
+    font-size: 16px;
+    text-transform: capitalize;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#to-do-list li:hover{
+    background-color: #d3d2d21c;
+    transition: .4s;
+    border-radius: 16px;
+    padding-left: 1rem;
+
+}
+#buttonok{
+    border: none;
+    background-color: green;
+    color: white;
+    font-size: 1rem;
+    padding: .4rem .8rem;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: .4s
+}
+#buttonok:hover{
+    background-color: #4b2c07;
+}
+
+
